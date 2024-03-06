@@ -45,5 +45,5 @@ listint_t *swap_node(listint_t *nd, listint_t **list)
 		cur->prev->next = cur;
 	else
 		*list = cur;
-	return cur;
+	return (cur);
 }
